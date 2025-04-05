@@ -126,6 +126,19 @@ h3 {
     }
 
 /* Call to action */
-
+.call-to-action{
+    padding: var(--section-padding);
+    padding-top:80px;
+    padding-bottom: 80px;
+}
+    .action-callout{
+        color: #E5E7EB;
+        padding: 20px 50px 20px;
+        background-color: #3882F6;
+        border-radius: 8px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 
 /* Footer */
