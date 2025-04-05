@@ -26,6 +26,7 @@ li{
 }
 a {
     color:#F9FAF8;
+    text-decoration: none;
 }
 p{
     font-size:  16px;
@@ -59,27 +60,23 @@ h3 {
     .header > ul{ 
         display: flex;
         flex: 1 0 auto;
-        border: 2px red solid;
         justify-content: flex-end;
         align-items: center;
     }
         .logo{
             flex: 1 1 auto;
             justify-self: flex-start;
-            border: 2px white solid;
         }
         .links{
             display: flex;
             flex: 0 0 auto;
             text-align: center;
-            border: 2px white solid;
             gap: 6px;
         }
         
     /* Banner */
     .banner{
         display:flex;
-        border: 2px red solid;
         align-items: center;
     }
         .sign-up-button{
