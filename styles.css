@@ -1,12 +1,91 @@
-body{
-    background-color: grey;
+:root {
+    --primary-color: #1F2937; /* or any color you want */
+    --section-padding: 0px 100px 0px;
 }
 
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+    font-size: 14px 
+}
+body{
+    background-color: grey;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+/* general styles */
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    list-style-type: none;
+    font-size: 14px 
+}
+a {
+    color:#F9FAF8;
+}
+p{
+    font-size: 14px 
+}
+h1,h2{
+    margin: 0px;
+}
+h1{
+    font-size: 48px;
+}
+h2{
+    font-size: 36px;
+}
+
+
 /* Header and Banner */
+.header-banner{
+    background-color: var(--primary-color);
+    color: #F9FAF8;
+    display:flex;
+    flex-direction:column;
+    border: 2px white solid;
 
+    padding: var(--section-padding);
+    gap: 12px;
+}
     /* Header */
-
+    .header > ul{ 
+        display: flex;
+        flex: 1 0 auto;
+        border: 2px red solid;
+        justify-content: flex-end;
+        align-items: center;
+    }
+        .logo{
+            flex: 1 1 auto;
+            justify-self: flex-start;
+            border: 2px white solid;
+        }
+        .links{
+            display: flex;
+            flex: 0 0 auto;
+            text-align: center;
+            border: 2px white solid;
+            gap: 6px;
+        }
+        
     /* Banner */
+    .banner{
+        display:flex;
+        border: 2px red solid;
+        align-items: center;
+    }
+        .sign-up-button{
+            padding: 8px;
+            background-color: #3882F6;
+            width: 100px;
+            border-radius: 8px;
+            text-align: center;
+        }
 
 
 /* Information tiles */
@@ -16,5 +95,6 @@ body{
 
 
 /* Call to action */
+
 
 /* Footer */
