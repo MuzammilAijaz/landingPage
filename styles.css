@@ -54,6 +54,7 @@ h3 {
     border: 2px white solid;
 
     padding: var(--section-padding);
+    padding-bottom: 40px;
     gap: 12px;
 }
     /* Header */
@@ -71,7 +72,7 @@ h3 {
             display: flex;
             flex: 0 0 auto;
             text-align: center;
-            gap: 6px;
+            gap: 24px;
         }
         
     /* Banner */
@@ -130,7 +131,7 @@ h3 {
 }
     .action-callout{
         color: #E5E7EB;
-        padding: 20px 50px 20px;
+        padding: 20px 90px 20px;
         background-color: #3882F6;
         border-radius: 8px;
         display: flex;
