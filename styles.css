@@ -36,9 +36,13 @@ h1,h2,h3,p{
 }
 h1{
     font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900px;
 }
 h2{
     font-size: 36px;
+    color: #1F2937;
+    font-weight: 900px;
 }
 h3 {
     font-size: 24px;
@@ -102,12 +106,14 @@ h3 {
         gap: 40px;
         justify-content: center;
     }
-        .square{
-            border: 3px solid #3882F6;
-            border-radius: 8px;
+        .box{
             width: 150px;
-            height: 150px;
         }
+            .square{
+                border: 3px solid #3882F6;
+                border-radius: 8px;
+                height: 150px;
+            }
 
 /* Quotes */
 .quotes{
